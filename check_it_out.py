@@ -3,12 +3,12 @@ from mysql.connector import Error
 
 
 def check():
-    """A function that extracts data from the titles table of the work1 database. At first it connects to the
+    """A function that extracts data from the titles table of the work4 database. At first it connects to the
     database, then if it is connected it prints all the data from the table. If the connection fails, an error is
     printed in the terminal. At the end we disconnect. """
     try:
         connection = mysql.connector.connect(host='localhost',
-                                             database='work1',
+                                             database='work4',
                                              user='root',
                                              password='password')
         if connection.is_connected():

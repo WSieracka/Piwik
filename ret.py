@@ -5,7 +5,7 @@ import mysql.connector
 def check_employees():
     """Function that returns data from the titles table of the employees database"""
     connection = mysql.connector.connect(host='localhost',
-                                         database='employes',
+                                         database='employees',
                                          user='root',
                                          password='password')
     if connection.is_connected():
@@ -18,7 +18,7 @@ def check_employees():
 def check_work():
     """Function that returns data from the titles table of the work1 database"""
     connection = mysql.connector.connect(host='localhost',
-                                         database='work1',
+                                         database='work4',
                                          user='root',
                                          password='password')
     if connection.is_connected():

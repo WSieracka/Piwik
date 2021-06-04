@@ -6,7 +6,7 @@ def dtable():
     """Function that creates tables for the work1 database"""
     try:
         connection = mysql.connector.connect(host='localhost',
-                                             database='work1',
+                                             database='work4',
                                              user='root',
                                              password='password')
         if connection.is_connected():

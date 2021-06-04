@@ -11,7 +11,7 @@ def data():
             password='password')
         if database.is_connected():
             cursor = database.cursor()
-            cursor.execute("CREATE DATABASE IF NOT EXISTS work1")
+            cursor.execute("CREATE DATABASE IF NOT EXISTS work4")
 
     except Error as e:
         print("Error while connecting to MySQL", e)
