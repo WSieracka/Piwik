@@ -8,7 +8,7 @@
 ## Used environment
 PyCharm Community 2021.1
 ## General info
-The project was created as a recruitment assignment for Piwik company.
+The project was created as a recruitment task for Piwik company.
 ## Start-up
 1. Clone the repository
 2. Go to folder: cd Piwik
