@@ -3,8 +3,8 @@
 * [Used environment](#used-environment)
 * [General info](#general-info)
 * [Start-up](#start-up)
-* [Information-about-scripts](#information)
-* [Important-information](#begin)
+* [Information-about-scripts](#information-about-scripts)
+* [Important-information](#important-information)
 ## Used environment
 PyCharm Community 2021.1
 ## General info
