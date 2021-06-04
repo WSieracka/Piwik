@@ -1,0 +1,9 @@
+point 4.
+Unit tests were written using unittest and a previously written ret.py script. ret.py has two functions check_employees() and check_work(). check_employees() returns data from the titles table in the employees database. check_work() returns data from the titles table in the work4 database. A testcase is created by subclassing unittest.TestCase. Tests are defined with methods whose names begin with the word test (informs the test runner which methods represent the tests). The test_base() function compares the data from both tables.
+
+point 5.
+Documentation was performed using Sphinx. To view the documentation, unzip the doc.zip. Then open the index.html file (doc ->_build->html).
+In addition, the readme includes instructions for setting up an environment and running the program.
+
+part 2.
+Program execution time is 16550.78 milli-seconds (approximately 16 seconds).  The result was obtained with the time_s() function. It is given in milli-seconds for better accuracy. This function measuring size and peak size of memory blocks. This function measures the size and peak size of memory blocks so we can check the amount of memory used. The program was improved using the executemany() method, before a loop was used to solve the problem (each element was copied one by one). By using the loop the execution time decreased from 19650500.78 milli-seconds to 16550.78 milli-seconds.
