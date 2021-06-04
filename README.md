@@ -5,7 +5,7 @@
 * [Information-about-scripts](#information)
 * [Important-information](#begin)
 # Recruitment task from Piwik company
-##u Used environment
+## Used environment
 PyCharm Community 2021.1
 ##general-info
 The project was created as a recruitment assignment for Piwik company.
